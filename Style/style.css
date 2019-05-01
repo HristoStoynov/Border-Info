@@ -1,0 +1,787 @@
+/*General Style*/
+
+*{
+    padding: 0;
+    margin: 0; 
+}
+
+body{
+   background-color: rgb(224, 224, 224) ;
+}
+
+option{
+    font-weight: bold;
+}
+
+/*Navbar*/
+
+#brandPic{
+    width: 50px;
+    height: 50px;
+}
+
+#brandBorder{
+    color:white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#brandPass{
+    color: rgb(180, 110, 18);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.navbar-nav{
+    float: left;
+}
+
+.nav-item{
+    color:white !important;
+    font-weight: bold;
+    font-size: 27px;
+    margin: 9px 25px 0  0px;
+}
+
+.nav-item:hover{
+    color: rgb(180, 110, 18) !important;
+}
+
+nav{
+    height:90px;
+    background-image: url("../Images/pattern.jpg");
+    background-repeat: repeat;
+    background-color: black;
+    box-shadow: 2px 2px 2px rgb(180, 110, 18);
+}
+
+#navbarSupportedContent{
+    background-image: url("../Images/pattern.jpg");
+    margin-top: -5px;
+    width: 100%;
+    padding: 10px;
+}
+
+/*Background Picture*/
+
+#air-bg{
+    width: 100%;
+    height: 620px;
+    box-shadow: 3px 3px 3px rgb(180, 110, 18);
+}
+
+/*Phrase*/
+
+#phrase{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 60%;
+    color:black;
+    font-size: 180%;
+    max-width: 550px;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px rgb(240, 240, 240);
+    margin-right: 5%;
+}
+
+#phraseHeading{
+    font-size: 130%;
+    font-weight: 500;
+}
+
+/*Search engine*/
+
+#searchDiv{
+    margin-left: 30px;
+    width: 65%;
+    height: 100px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 4px rgb(172, 172, 172);
+    border-radius: .6rem;
+    position: absolute;
+    margin-top: -130px;
+}
+
+#country1{
+    margin-top: 30px;
+    margin-left: 45px;
+    height: 40px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: .6rem;
+}
+
+#countryChange{
+    margin-top: -5px;
+    width: 40px;
+    height: 40px;
+    margin-left: 80px;
+}
+
+#country2{
+    margin-top: 30px;
+    margin-left: 80px;
+    height: 40px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: .6rem;
+}
+
+#country1:hover{
+    box-shadow: 1.5px 1.5px 0 rgb(149, 149, 149);
+}
+
+#country2:hover{
+    box-shadow: 1.5px 1.5px 0 rgb(149, 149, 149);
+}
+
+#clickMe{
+    border-radius: .6rem;
+    color: white;
+    background-image: url("../Images/pattern.jpg"); 
+    font-size: 30px;
+    height:50px;
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 90px;
+    font-weight: bold;
+    position: absolute;
+}
+
+#clickMe:hover{
+    box-shadow: 2px 2px 0 rgb(179, 179, 179);
+    color: rgb(180, 110, 18);
+}
+
+#invalid{
+    position: absolute;
+    color: red;
+    font-size: 14px;
+    margin-top: 80px;
+    margin-left: -120px;
+}
+
+/*Visas, Vaccines and Info*/
+
+#heading{
+    float: left;
+    padding-left: 27%;
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#visa{
+    margin-top: 75px;
+    max-width: 1100px;
+    height: 300px;
+    background-image: url("../Images/pattern.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .9rem;
+    box-shadow: 3px 3px 3px gray;
+}
+
+#visaPic{
+    height: 300px;
+    width: 500px;
+    margin-left: -15px;
+    border-radius: .9rem;
+    float: left;
+}
+
+#headingVisa{
+    padding-right: 25%;
+    float: right;
+    color:white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#parVisa{
+    color: white;
+    padding-top: 5%;
+    padding-left: 46%;
+    font-size: 20px;
+}
+
+#vaccine{
+    margin-top: 100px;
+    max-width: 1100px;
+    height: 300px;
+    background-image: url("../Images/pattern.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .9rem;
+    box-shadow: 3px 3px 3px gray;
+}
+
+#vaccinePic{
+    height: 300px;
+    width: 500px;
+    margin-right: -15px;
+    float: right;
+    border-radius: .9rem;
+}
+
+#headingVaccine{
+    padding-left: 20%;
+    float: left;
+    color:white;
+    font-weight: bold;
+}
+
+#parVaccine{
+        color: white;
+        padding-top: 5%;
+        font-size: 20px;
+}
+
+#info{
+    margin-top: 100px;
+    max-width: 1100px;
+    height: 300px;
+    background-image: url("../Images/pattern.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .9rem;
+    box-shadow: 3px 3px 3px gray;
+}
+
+#headingInfo{
+    padding-left: 38%;
+    color:white;
+    font-weight: bold;
+}
+
+#parInfo{
+    color: white;
+    padding-top: 3%;
+    font-size: 20px;
+}
+
+/*Contact*/
+
+#contact{
+    padding-left: 34%;
+    color:white;
+    font-weight: bold;
+}
+/*Footer*/
+
+#footer{
+    margin-top: 100px;
+    height: 70px;
+    background-image: url("../Images/pattern.jpg");
+    width: 100%;
+}
+
+#footerInfo{
+    color:white;
+    font-size: 11px;
+    padding-top:1%;
+    padding-left: 35%;
+    font-weight: bold;
+}
+
+/*Medias*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    nav{
+        height: 60px;
+    }
+
+    #brandPic{
+        width: 30px;
+        height: 30px;
+    }
+
+    #brandBorder{
+        font-size: 30px;
+    }
+
+    #brandPass{
+        font-size: 30px;
+    }
+
+    .nav-item{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    #air-bg{
+        height: 500px;
+    }
+
+    #phrase{
+        font-size: 90%;
+        margin-left: 40%;
+    }
+
+    #searchDiv{
+        height: 130px;
+        margin-top: -180px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #country1{
+        height:30px;
+        width: 150px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    #countryChange{
+        width: 30px;
+        height: 30px;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    #country2{
+        height: 30px;
+        width: 150px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    #clickMe{
+        height: 30px;
+        max-width: 150px;
+        margin-top: 85px;
+        margin-left: -8em;
+        font-size: 15px;
+    }
+
+    #invalid{
+        margin-top: 85px;
+        margin-left: -25em;
+    }
+
+    #heading{
+        font-size: 30px;
+        padding-left: 10%;
+    }
+
+    #visa{
+        height:200px;
+        margin-top: 50px;
+    }
+
+    #visaPic{
+        width:40%;
+        height: 200px;
+    }
+
+    #headingVisa{
+        font-size: 16px;
+    }
+
+    #parVisa{
+        font-size: 10px;
+    }
+
+    #vaccine{
+        height:200px;
+        margin-top: 50px;
+    }
+
+    #vaccinePic{
+        width:40%;
+        height: 200px;
+    }
+
+    #headingVaccine{
+        font-size: 16px;
+    }
+
+    #parVaccine{
+        font-size: 10px;
+    }
+
+    #info{
+        height:200px;
+        margin-top: 50px;
+    }
+
+    #headingInfo{
+        font-size: 19px;
+        padding-left: 25%;
+    }
+
+    #parInfo{
+        font-size: 11px;
+    }
+
+    #contact{
+        margin-top: 50px;
+        font-size: 19px;
+        padding-left: 18%;
+    }
+
+    #footer{
+        height: 50px;
+        margin-top: 50px;
+    }
+
+    #footerInfo{
+        padding-left: 15%;
+        font-size: 8px;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #phrase{
+        font-size: 110%;
+        margin-left: 60%;
+    }
+
+    #searchDiv{
+        height: 130px;
+        margin-top: -180px;
+        width: 80%;
+    }
+
+    #country1{
+        height:30px;
+        width: 160px;
+        margin-top: 3px;
+        margin-left: 4px;
+    }
+
+    #countryChange{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+
+    #country2{
+        height: 30px;
+        width: 160px;
+        margin-top: 38px;
+        margin-left: 100px;;
+    }
+
+    #clickMe{
+        position: absolute;
+        height: 40px;
+        width: 180px;
+        margin-top: 86px;
+        margin-left: -200px;
+        font-size: 25px;
+    }
+
+    #invalid{
+        position: absolute;
+        margin-top: 86px;
+        margin-left: -400px;
+    }
+
+    #visaPic{
+        width:350px;
+    }
+
+    #headingVisa{
+        font-size: 25px;
+    }
+
+    #parVisa{
+        font-size: 16px;
+    }
+
+    #vaccinePic{
+        width:350px;
+    }
+
+    #headingVaccine{
+        font-size: 25px;
+    }
+
+    #parVaccine{
+        font-size: 16px;
+    }
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #phrase{
+        font-size: 140%;
+        margin-left: 55%;
+    }
+
+    #searchDiv{
+        height: 90px;
+        margin-top: -130px;
+        width: 80%;
+    }
+
+    #country1{
+        height:30px;
+        width: 120px;
+        margin-top: 0px;
+        margin-left: 4px;
+    }
+
+    #countryChange{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        margin-top: 35px;
+        margin-left: 10px;
+    }
+
+    #country2{
+        height: 30px;
+        width: 120px;
+        margin-top: 30px;
+        margin-left: 50px;;
+    }
+
+    #clickMe{
+        position: realtive;
+        height: 40px;
+        width: 150px;
+        margin-top: 25px;
+        margin-left: 50px;
+        font-size: 25px;
+    }
+
+    #invalid{
+        position: absolute;
+        margin-top: 6px;
+        margin-left: 100px;
+    }
+
+    #visaPic{
+        width:350px;
+    }
+
+    #headingVisa{
+        font-size: 25px;
+    }
+
+    #parVisa{
+        font-size: 16px;
+    }
+
+    #vaccinePic{
+        width:350px;
+    }
+
+    #headingVaccine{
+        font-size: 25px;
+    }
+
+    #parVaccine{
+        font-size: 16px;
+    }
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #phrase{
+        font-size: 170%;
+        margin-left: 60%;
+    }
+
+    #searchDiv{
+        height: 90px;
+        margin-top: -130px;
+        width: 75%;
+    }
+
+    #country1{
+        height:40px;
+        width: 180px;
+        margin-top: 0px;
+        margin-left: 4px;
+    }
+
+    #countryChange{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    #country2{
+        height: 40px;
+        width: 180px;
+        margin-top: 25px;
+        margin-left: 100px;;
+    }
+
+    #clickMe{
+        position: relative;
+        height: 40px;
+        width: 200px;
+        margin-top: 25px;
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
+    #invalid{
+        position: absolute;
+        margin-top: 6px;
+        margin-left: 00px;
+    }
+
+    #visa{
+        max-width: 940px;
+    }
+
+    #visaPic{
+        width:400px;
+    }
+
+    #headingVisa{
+        font-size: 27px;
+    }
+
+    #parVisa{
+        font-size: 20px;
+    }
+
+    #vaccine{
+        max-width: 940px;
+    }
+
+    #vaccinePic{
+        width:400px;
+    }
+
+    #headingVaccine{
+        font-size: 27px;
+    }
+
+    #parVaccine{
+        font-size: 20px;
+    }
+
+    #info{
+        max-width: 940px;
+    }
+} 
+
+/* Large devices (laptops/desktops, 1230px and up) */
+@media only screen and (min-width: 1230px) {
+    #phrase{
+        font-size: 170%;
+        margin-left: 60%;
+    }
+
+    #searchDiv{
+        height: 90px;
+        margin-top: -130px;
+        width: 75%;
+    }
+
+    #country1{
+        height:40px;
+        width: 200px;
+        margin-top: 0px;
+        margin-left: 4px;
+    }
+
+    #countryChange{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    #country2{
+        height: 40px;
+        width: 200px;
+        margin-top: 25px;
+        margin-left: 100px;;
+    }
+
+    #clickMe{
+        position: relative;
+        height: 50px;
+        width: 230px;
+        margin-top: 25px;
+        margin-left: 150px;
+        font-size: 25px;
+    }
+
+    #invalid{
+        position: absolute;
+        margin-top: 6px;
+        margin-left: 150px;
+    }
+
+    #visa{
+        max-width: 940px;
+    }
+
+    #visaPic{
+        width:400px;
+    }
+
+    #headingVisa{
+        font-size: 27px;
+    }
+
+    #parVisa{
+        font-size: 20px;
+    }
+
+    #vaccine{
+        max-width: 940px;
+    }
+
+    #vaccinePic{
+        width:400px;
+    }
+
+    #headingVaccine{
+        font-size: 27px;
+    }
+
+    #parVaccine{
+        font-size: 20px;
+    }
+
+    #info{
+        max-width: 940px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #visaPic{
+        width:500px;
+    }
+
+    #headingVisa{
+        font-size: 27px;
+    }
+
+    #parVisa{
+        font-size: 21px;
+    }
+
+    #vaccinePic{
+        width:500px;
+    }
+
+    #headingVaccine{
+        font-size: 27px;
+    }
+
+    #parVaccine{
+        font-size: 21px;
+    }
+}

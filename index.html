@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Border Info</title>
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Style/style.css">
+        <meta name="description" content="Free Travel Guide">
+        <meta name="keywords" content="Visa, Vaccine, Travel, Free">
+        <meta name="author" content="Hristo Stoynov">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="Script/code.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="sticky-top navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#"><span id="brandBorder"><img src="Images/brand.png" id="brandPic"> Border </span><span id="brandPass">Info</span></a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="#">Начало</a>
+                <a class="nav-item nav-link" href="#searchDiv">Услуги</a>
+                <a class="nav-item nav-link" href="#info">Информация</a>
+            </div> 
+            </div>
+        </nav>
+        <section>
+            <img src="./Images/air.jpg" id="air-bg">
+        </section>
+        <div id="phrase">
+            <h3 id="phraseHeading">Ще пътуваш в чужбина?</h3>
+            <p>Тук можеш да намериш информация за визи, ваксини и много други.</p>
+        </div>
+        <div class="container" id="searchDiv">
+            <select name="hcountry" id="country1" >
+                    <option name="hcountry">--Страна--</option>
+                    <option name="hcountry">България</option>
+                    <option name="hcountry">Гърция</option>
+                    <option name="hcountry">Индия</option>
+                    <option name="hcountry">Индонезия</option>
+                    <option name="hcountry">САЩ</option>
+                    <option name="hcountry">Северна Македония</option>
+                    <option name="hcountry">Тайланд</option>
+            </select>
+            <img src="Images/change.png" id="countryChange">
+            <select name="fcountry" id="country2">
+                    <option name="hcountry">--Дестинация--</option>
+                    <option name="fcountry">България</option>
+                    <option name="fcountry">Гърция</option>
+                    <option name="fcountry">Индия</option>
+                    <option name="fcountry">Индонезия</option>
+                    <option name="fcountry">САЩ</option>
+                    <option name="fcountry">Северна Македония</option>
+                    <option name="fcountry">Тайланд</option>
+            </select>
+            <span id="invalid"></span>
+            <input id="clickMe" type="button" value="Провери"/>
+            </div>
+            <!--<h1 id="heading">Визи, Ваксини и Информация</h1>-->
+            <div id="visa" class="container">
+                <img src="Images/visa.jpg" id="visaPic">
+                <h3 id="headingVisa">Виза</h3>
+                <p id="parVisa">Визата е официален документ, който позволява на човек законно да влезе в чужда държава. Визата е често напечатана или залепена на паспорта на пътника. Има различни видове виза, всяка дава различни права на притежателя в държавата. Туристическите визи позволяват на притежателя да посети чужда държава, с цел ваканция или почивка, за предварително определен период от време.</p>
+            </div>
+            <div id="vaccine" class="container">
+                <img src="Images/vaccine.jpg" id="vaccinePic">
+                <h3 id="headingVaccine">Ваксини</h3>
+                <p id="parVaccine">Посещаванието на чужда държава може да те постави в риск да заболееш от инфекция, която попринцип не е характерна за твоята държава. Да се ваксинираш срещу определени инфекции е един от най-ефективните начини да предпазите здравето си в чужбина. Планирайте биенето на ваксини поне месец преди пътуването. Повечето ваксини им трябва време за да ти осигурят пълна защита.</p>
+            </div>
+            <div id="info" class="container">
+                <h3 id="headingInfo">Информация</h3>
+                <p id="parInfo" id="parChange">Border Info е иновативна Web платформа изработена от Христо Стойнов. Border Info събира всичко необходимо за пътуване отвъд граница. Можеш да провериш каква виза ти трябва, какви ваксини трябва да си биеш и отделна информация, която може да включва домашни любимци, специални лекарства и други. Border Info подържа следните страни: България, САЩ, Индия, Индонезия, Тайланд, Северна Македония и Гърция. Web платформата е в разработка от Април 2019 година.</p>
+            </div>
+            <div id="info" class="container">
+                <h3 id="contact">Контакти и Източници</h3>
+                <p id="parInfo">Много ще сме ви благодарни, ако ни изпратите имейл, свързан с ваше пътуване, което може да обогати съдържанието на сайта. Ако имате препоръки или намирате неточности, моля пишете на h.e.stoynov@gmail.com. За бизнес контакти може отново да използвате същия имейл. <br> Източници: passportindex.org; ivisa.com; passporthealthusa.com; evisa.gov и сайтовете на министерствата на различните страни.</p>
+            </div>
+            <footer class="page-footer" id="footer">
+                <p id="footerInfo">Made by Hristo Stoynov with JS, HTML, CSS and Bootstrap<br> h.e.stoynov@gmail.com</p>
+            </footer>
+            <script>solve()</script>
+    </body>
+</html>
